@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:b02-ex02-input\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:b02-ex02-input\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:b02-ex02-input\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\final.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:b02-ex02-input\\final.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "final.png - PNG [1920x945, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\final.png",
+              "RelativeDocumentMoniker": "b02-ex02-input\\final.png",
+              "ToolTip": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\final.png - PNG [1920x945, 32 bit, PNG]",
+              "RelativeToolTip": "b02-ex02-input\\final.png - PNG [1920x945, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-15T15:15:36.283Z",
+              "EditorCaption": " - PNG [1920x945, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "readme.txt",
+              "DocumentMoniker": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\readme.txt",
+              "RelativeDocumentMoniker": "b02-ex02-input\\readme.txt",
+              "ToolTip": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\readme.txt",
+              "RelativeToolTip": "b02-ex02-input\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-15T15:02:57.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\styles.css",
+              "RelativeDocumentMoniker": "b02-ex02-input\\styles.css",
+              "ToolTip": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\styles.css",
+              "RelativeToolTip": "b02-ex02-input\\styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-15T15:02:51.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\index.html",
+              "RelativeDocumentMoniker": "b02-ex02-input\\index.html",
+              "ToolTip": "D:\\Wordspace\\html\\bu\u1ED5i 2\\b02-ex02-input_mH75t\\b02-ex02-input\\index.html",
+              "RelativeToolTip": "b02-ex02-input\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-15T15:02:35.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

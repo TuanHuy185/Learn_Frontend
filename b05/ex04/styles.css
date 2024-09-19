@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+    background-color: #f5f5f5;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .banner {
+    display: block;
+    height: 230px;
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s linear; 
+  }
+  
+  .page {
+    display: flex;
+    max-width: 1200px;
+    padding: 15px;
+    margin: 15px auto;
+    flex-wrap: wrap;
+  }
+  
+  .blogger {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3 - 20px);
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.4s linear;
+  }
+  
+  .blogger:hover {
+    transform: scale(1.02);
+  }
+  
+  .banner:hover {
+    transform: scale(1.05);
+  }
+  
+  article {
+    padding: 10px;
+    flex: 1;
+  }
+  
+  .title {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .content {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin: 15px 0;
+  }
+  
+  .post-author {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    padding: 10px;
+  }
+  
+  .avt {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .author-info {
+    margin-left: 15px;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  time {
+    margin-left: auto;
+  }
+
+  @media screen and (max-width: 900px) {
+    .blogger{
+        width: calc(100%/2 - 20px);
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    .blogger{
+        width: calc(100% - 20px);
+    }
+  }
+  

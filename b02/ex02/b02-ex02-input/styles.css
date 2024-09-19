@@ -1,0 +1,32 @@
+﻿li {
+    color: purple;
+}
+
+h1,
+h2 {
+    color: blue;
+}
+
+#submit {
+    background-color: green;
+}
+
+#courses span {
+    color: red;
+}
+
+.type {
+    color: magenta;
+}
+
+input[type="email"] {
+    background-color: orange;
+}
+
+a[href$=".org"] {
+    color: magenta;
+}
+
+h2.bright {
+    color: cyan;
+}

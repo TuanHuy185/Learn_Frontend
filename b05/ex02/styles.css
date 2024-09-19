@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #b7b7b7;
+    font-family: 'Nunito', sans-serif;
+    color: gray;
+}
+.container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 10px 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 25px;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    color: inherit;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    margin: 10px;
+}
+.menu li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+    border: 2px;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+}
+.menu .active {
+    color: white;
+    background-color: black;
+}
+.menu li a:hover {
+    color: white;
+    background-color: black;
+}
+.bars {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+#activeBars {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+    } 
+    .menu {
+        display: none;
+    }
+    .menu li {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    .bars {
+        display: unset;
+    }
+    #activeBars:checked + .menu {
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A2036;
+    font-family: Merriweather;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-group {
+    width: 975px;
+    display: flex;
+    background-color: #252B42;
+    border-radius: 25px;
+    padding: 35px 60px 35px 35px;
+    margin-top: 269px; 
+    margin-bottom: 269px;
+}
+
+.menu {
+    padding: 158px 15px ;
+    border-radius: 20px;
+    background-color: #1A2036;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.menu .icons {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu i {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7F89A9;
+    font-size: 32px;
+}
+
+.menu a .fa-user {
+    background-color: #242B42;
+    border-radius: 10px;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-bottom: 44px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+
+.return-button {
+    display: flex;
+    align-items: center;
+}
+
+.return-button a,
+h2 {
+    color: #B1B9D8;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32.68px;
+}
+
+.return-button h2 {
+    margin-left: 10px;
+}
+
+.layout {
+    width: 104px;
+    height: 52px;
+    border: 2px solid #1A2036;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #7F89A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout a:first-child {
+    background-color: #1A2036;
+    border-radius: 10px 0 0 10px;
+    width: 54px;
+    height: 52px;
+}
+
+.layout a:nth-child(2) {
+    margin: 10px;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    position: relative;
+    width: calc(100%/4 - 15px);
+    background-color: #1A2036;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    color: #B1B9D8;
+    box-shadow: 0px 10px 25px -15px #111628;
+}
+
+
+.item .fa-plus {
+    width: 56px;
+    height: 56px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #242B42;
+    margin-bottom: 14px;
+    color: #808FBE;
+}
+
+.item .fa-circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 12px;
+    font-size: 11px;
+    color: #8E66FF;
+}
+
+.item:first-child {
+    background-color: #2E3650;
+}
+
+.item img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.63px;
+    color: #B1B9D8;
+    margin-bottom: 5px;
+}
+
+.item p {
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    color: #B1B9D8;
+}
