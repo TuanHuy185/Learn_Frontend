@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Scoreboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="info">
+      <div class="stadium">ZENDVN FIELD</div>
+      <div class="team-name home">Frontend</div>
+      <div class="vs">vs</div>
+      <div class="team-name away">Backend</div>
+    </div>
+    <div class="box-main">
+      <img src="./images/home-team.png" class="team-logo home" alt="">
+      <div class="box-score-wrapper">
+        <div class="box-score home">00</div>
+        <div class="action">
+          <button class="btn home">1</button>
+          <button class="btn home">2</button>
+          <button class="btn home">3</button>
+        </div>
+      </div>
+      <div class="box-score-wrapper">
+        <div class="box-score away">00</div>
+        <div class="action">
+          <button class="btn away">1</button>
+          <button class="btn away">2</button>
+          <button class="btn away">3</button>
+        </div>
+      </div>
+      <img src="./images/away-team.png" class="team-logo away" alt="">
+    </div>
+    <div class="footer">
+      <div class="name home">HOME</div>
+      <div class="time">
+        TIME
+        <div class="clock">
+          35:00
+        </div>
+      </div>
+      <div class="name away">AWAY</div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

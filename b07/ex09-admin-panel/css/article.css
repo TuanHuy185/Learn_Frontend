@@ -1,0 +1,12 @@
+.col-img {
+  min-width: 100px;
+  width: 100px;
+}
+
+.col-title {
+  min-width: 200px;
+}
+
+.col-category {
+  min-width: 170px;
+}

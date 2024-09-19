@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <img src="./images/bg.jpg" alt="" class="img-top" />
+    <div class="app">
+      <h1 class="main-title">TODO</h1>
+      <form action="" class="form-search">
+        <input type="text" class="input-search" placeholder="Search todo" />
+        <button type="button" class="btn btn-search">Search</button>
+        <button type="button" class="btn btn-clear">Clear</button>
+      </form>
+      <div class="sort-area">
+        <button type="button" class="btn">Sort Default</button>
+        <button type="button" class="btn bg-primary">Sort ASC</button>
+        <button type="button" class="btn bg-success">Sort DESC</button>
+      </div>
+      <form action="" class="form-todo">
+        <input type="text" class="input-todo" placeholder="Todo name" />
+        <button type="button" class="btn">Create</button>
+        <button type="button" class="btn bg-warning">Cancel</button>
+      </form>
+      <div class="todo-list">
+        <div class="todo-item">
+          <span class="todo-name">Complete Frontend Course</span>
+          <div class="todo-action">
+            <button class="btn bg-warning">Edit</button>
+            <button class="btn bg-danger">Delete</button>
+          </div>
+        </div>
+        <div class="todo-item">
+          <span class="todo-name">Reading book</span>
+          <div class="todo-action">
+            <button class="btn bg-warning">Edit</button>
+            <button class="btn bg-danger">Delete</button>
+          </div>
+        </div>
+        <div class="todo-item">
+          <span class="todo-name">Gym</span>
+          <div class="todo-action">
+            <button class="btn bg-warning">Edit</button>
+            <button class="btn bg-danger">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

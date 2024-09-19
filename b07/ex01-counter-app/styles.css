@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  background-color: #EFF5F6;
+  min-height: 100vh;
+  color: #434A50;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.app {
+  width: 700px;
+  min-height: 500px;
+  border-radius: 10px;
+  padding-top: 30px;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 8px solid #847980;
+}
+
+.number {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;  
+  font-family: inherit;
+  cursor: pointer;
+  color: #111212;
+  text-shadow: 0px 0px 1px black;
+  font-size: 16px;
+}
+
+.btn-increase {
+  background-color: #CAA78C;
+}
+
+.btn-decrease {
+  background-color: #8EA3A9;
+}
+
+.btn-reset {
+  background-color: #EFF5F6;
+}
+
+.btn-save {
+  background-color: #00d4fa;
+}
+
+.saved-number {
+  margin-top: 15px;
+}

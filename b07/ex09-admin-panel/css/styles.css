@@ -1,0 +1,30 @@
+.input-ordering {
+  width: 100px;
+}
+
+.col-sort {
+  cursor: pointer;
+}
+
+.col-sort-content {
+  display: flex;
+  align-items: center;
+}
+
+.col-sort .sort-icon-group {
+  color: #989898;
+}
+
+.col-sort.up .icon-sort-up {
+  color: #f59f00;
+}
+.col-sort.down .icon-sort-down {
+  color: #f59f00;
+}
+
+.sort-icon-group {
+  border: 0;
+  background-color: transparent;
+  display: inline-flex;
+  flex-direction: column;
+}
